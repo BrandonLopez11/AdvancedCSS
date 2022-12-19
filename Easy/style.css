@@ -1,0 +1,30 @@
+table {
+    height: 456px;
+    width: 800px;
+    margin: initial;
+}
+
+table,
+td {
+    border: solid 2px;
+    border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+    background-color: red;
+}
+
+tr:nth-child(even) {
+    background-color: #fff;
+}
+
+* {
+    margin: 20px auto;
+}
+
+.stars {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    position: absolute;
+}
